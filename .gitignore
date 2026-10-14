@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment and secrets
+.env
+.env.*
+*.secret
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Candidate kit materials (not part of submission, must not be posted publicly)
+PROBLEM_STATEMENT.docx
+PROBLEM_STATEMENT.txt
+PROBLEM_STATEMENT_Hinglish_Summary.md
+openapi.yaml
+DATA_MODEL.md
+sample_data/
+sample_seed.py
+test_*.py
+
+# Do not include Dockerfile or data dumps per instructions
+Dockerfile
+docker-compose*.yml
+*.dump
+*.tar.gz
